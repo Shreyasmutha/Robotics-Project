@@ -7,6 +7,7 @@ Gesture-Controlled Robot is a project where hand movement is used to drive the w
 Features:
 
 Gesture Control: MPU-6050 sensor tilts (worn on hand) determines the direction of the robot.
+Circular Tilt Control: Smooth circular movements achieved by mapping MPU-6050 tilt angles to differential motor speeds.
 Real-Time Motion: Quick response to movements with accurate motor control using L298N.
 Modular Code: C code with easy-to-use functions for sensor reading and motor control.
 I2C Communication: It communicates with the MPU-6050 using the I2C protocol.
@@ -77,11 +78,10 @@ Forward tilt: Robot moves forward.
 Backward tilt: Robot moves backward.
 Left tilt: Robot turns left.
 Right tilt: Robot turns right.
+Circular tilt : Robot moves in smooth arcs or circles by adjusting motor speeds differentially.
 Monitor Serial output (9600 baud) for debugging sensor data.
 Utilize Serial output (9600 baud) for debugging sensor information.
 
-Demo
-See the robot in action: YouTube Demo Video. Note: Create a 1-minute video of the robot moving and upload it to YouTube (unlisted). Update the link above.
 Code Structure
 
 gesture_robot.ino:
