@@ -113,4 +113,4 @@ Contact Shreyas Mutha at:
 Linkedin: https://www.linkedin.com/in/shreyas-mutha-5b092b2a7/
 Email: shreyasmutha82006@gmail.com
 
-Also please suggest some newer and cooler projects!
+Also please suggest some newer and cooler projects, optimisations if you see any.
